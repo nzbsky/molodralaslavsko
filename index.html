@@ -3,46 +3,16 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Феєрверк</title>
-<style>
-  body {margin:0;font-family:Arial, sans-serif;background:#000;color:#fff;}
-  header {background:#000;display:flex;align-items:center;justify-content:space-between;padding:15px 30px;position:fixed;width:100%;top:0;z-index:1000;}
-  header .logo {display:flex;align-items:center;}
-  header .logo span {background:#f3e93f;color:#000;font-size:40px;font-weight:bold;padding:0 20px;margin-right:10px;border-radius:4px;}
-  header nav a {color:#fff;text-decoration:none;margin:0 15px;font-weight:bold;}
-  header nav a:hover {color:#f3e93f;}
-  .hero {height:100vh;background:url('https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:0 20px;}
-  .hero h1 {font-size:60px;margin:0;}
-  .hero h2 {font-size:40px;margin:10px 0;}
-  .hero p {max-width:600px;margin-top:20px;font-size:18px;}
-  .gallery {padding:80px 30px;background:rgba(0,0,0,0.8);}
-  .gallery h2 {text-align:center;color:#f3e93f;font-size:36px;margin-bottom:40px;}
-  .grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
-  .grid img {width:100%;height:200px;object-fit:cover;border-radius:8px;}
-  /* Наша команда */
-  .team {background:#111;padding:80px 30px;text-align:center;}
-  .team h2 {color:#f3e93f;font-size:36px;margin-bottom:40px;}
-  .team-members {display:flex;flex-wrap:wrap;justify-content:center;gap:40px;}
-  .member {max-width:250px;}
-  .member img {width:100%;border-radius:50%;height:250px;object-fit:cover;border:4px solid #f3e93f;}
-  .member h3 {margin:15px 0 5px;font-size:22px;color:#fff;}
-  .member p {font-size:16px;color:#ccc;margin:0;}
-  .testimonials {background:#f3e93f;color:#000;text-align:center;padding:60px 20px;}
-  .testimonials h2 {font-size:36px;margin-bottom:20px;}
-  .testimonials h3 {font-size:24px;margin:20px 0;}
-  footer {background:#000;color:#aaa;text-align:center;padding:20px;}
-  footer a {color:#aaa;text-decoration:none;}
-  footer a:hover {text-decoration:underline;}
-  .spacer {height:80px;}
-</style>
+<title>Молодіжний центер </title>
+<link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 
 <header>
-  <div class="logo"><span>Ф</span>Феєрверк</div>
+  <img src="./img/logo.png" class="logo">
   <nav>
     <a href="#home">Головна</a>
-    <a href="#services">Послуги</a>
+    <a href="#services">Заходи</a>
     <a href="#about">Про нас</a>
     <a href="#contacts">Контакти</a>
   </nav>
@@ -51,22 +21,24 @@
 <div class="spacer" id="home"></div>
 
 <section class="hero" id="about">
-  <h1>ПРО</h1>
-  <h2>«ФЕЄРВЕРК»</h2>
-  <p>Це абзац. Натисніть, щоб додати та змінити текст. Додайте історію вашої компанії, особливості та переваги.</p>
+  <h1>МОЛОДІЖНИЙ ЦЕНТР</h1>
+  <h2>«Гори вражень»</h2>
+  <p>Сучасний простір для зустрічей та якісного дозвілля у Славську для молоді віком від 14-35 років.</p>
 </section>
 
 <section class="gallery" id="services">
   <h2>Галерея подій</h2>
   <div class="grid">
-    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" alt="Феєрверк">
-    <img src="https://images.unsplash.com/photo-1571687949920-61e4e0edc28c?auto=format&fit=crop&w=800&q=80" alt="Десерт">
-    <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=800&q=80" alt="Концерт">
-    <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=800&q=80" alt="Святковий стіл">
-    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" alt="Сервіровка">
-    <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80" alt="Вечірка">
-    <img src="https://images.unsplash.com/photo-1503185912284-5271ff81b9a8?auto=format&fit=crop&w=800&q=80" alt="Повітряні кулі">
-    <img src="https://images.unsplash.com/photo-1511216335397-cd9a57a1e1f0?auto=format&fit=crop&w=800&q=80" alt="DJ">
+    <img class="day-molod" src="./img/day-molod.jpg" alt="день молоді ">
+    <img class="vehornitsi" src="./img/vehornitsi.jpg" alt="Андрієвські вечорниці">
+    <img class="pora" src="./img/pora.jpg" alt="Проф орієнтаційний форум">
+    <img class="liter" src="./img/liter.jpg" alt="Літературна вечірка">
+    <img class="parat" src="./img/pirat.jpg" alt="Піратська вечірка">
+    <!-- <img src="" alt="Вечірка">
+    <img src="" alt="Повітряні кулі">
+    <img src="" alt="DJ">
+    <img src="" alt="Повітряні кулі">
+    <img src="" alt="DJ"> -->
   </div>
 </section>
 
@@ -75,14 +47,14 @@
   <h2>Наша команда</h2>
   <div class="team-members">
     <div class="member">
-      <img src="https://images.unsplash.com/photo-1603415526960-f7e0328da3f3?auto=format&fit=crop&w=500&q=80" alt="Командний учасник 1">
-      <h3>Олександр</h3>
-      <p>Організатор подій</p>
+      <img src="./img/katia.jpg" alt="Командний учасник 1">
+      <h3>Катерина</h3>
+      <p>Директор молодіжного центру</p>
     </div>
     <div class="member">
-      <img src="https://images.unsplash.com/photo-1603415526884-7b8779d9cd19?auto=format&fit=crop&w=500&q=80" alt="Командний учасник 2">
-      <h3>Марія</h3>
-      <p>Креативний директор</p>
+      <img src="./img/ivanka.jpg" alt="Командний учасник 2">
+      <h3>Іванна</h3>
+      <p>Молодіжна працівниця</p>
     </div>
   </div>
 </section>
@@ -95,7 +67,7 @@
 </section>
 
 <footer id="contacts">
-  © 2035 Феєрверк. Створено для прикладу. Зображення – Unsplash
+  © 2025 Молдодіжний центер "Гори вражень". 
 </footer>
 
 </body>

@@ -1,0 +1,212 @@
+/* ===== Base ===== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+/* ===== Header ===== */
+header {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
+header .logo span {
+  background: #f3e93f;
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 0 20px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+header nav{
+    padding-right: 300px;
+}
+
+header nav a:hover {
+  color: #f3e93f;
+}
+
+/* ===== Hero ===== */
+.hero {
+  height: 100vh;
+  background: url('./img/hero-logo.JPG')
+    center / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.31);
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin: 10px 0;
+  color: white;
+    background-color: rgba(0, 0, 0, 0.31);
+  
+}
+
+.hero p {
+  max-width: 600px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: white;
+ background-color: rgba(0, 0, 0, 0.31);
+}
+
+/* ===== Gallery ===== */
+.gallery {
+  padding: 80px 30px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.gallery h2 {
+  text-align: center;
+  color: #f3e93f;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+.pora{
+    width: 100%;
+    height: 300px;
+}
+.vehornitsi{
+    height: 300px;
+}
+.liter{
+    height: 300px;
+}
+.parat{
+  height: 300px;
+}
+.day-molod{
+  height: 300px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.grid img {
+  width: 250px;
+ 
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* ===== Team ===== */
+.team {
+  background: #111;
+  padding: 80px 30px;
+  text-align: center;
+}
+
+.team h2 {
+  color: #f3e93f;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.member {
+  max-width: 250px;
+}
+
+.member img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #f3e93f;
+}
+
+.member h3 {
+  margin: 15px 0 5px;
+  font-size: 22px;
+  color: #fff;
+}
+
+.member p {
+  margin: 0;
+  font-size: 16px;
+  color: #ccc;
+}
+
+/* ===== Testimonials ===== */
+.testimonials {
+  background: #f3e93f;
+  color: #000;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.testimonials h3 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: #000;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Helpers ===== */
+.spacer {
+  height: 80px;
+}

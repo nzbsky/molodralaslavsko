@@ -1,74 +1,124 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Молодіжний центер </title>
-<link rel="stylesheet" href="./styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Молодіжний центр «Гори вражень» | Славсько</title>
+
+  <meta name="description" content="Молодіжний центр «Гори вражень» у Славську — сучасний простір для молоді 14–35 років: заходи, навчання, дозвілля." />
+  <meta name="keywords" content="молодіжний центр, Славсько, молодь, заходи, дозвілля" />
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Молодіжний центр «Гори вражень»" />
+  <meta property="og:description" content="Сучасний молодіжний простір у Славську" />
+  <meta property="og:image" content="./img/logo.png" />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
 
+<!-- ===== HEADER ===== -->
 <header>
-  <img src="./img/logo.png" class="logo">
-  <nav>
-    <a href="#home">Головна</a>
-    <a href="#services">Заходи</a>
-    <a href="#about">Про нас</a>
-    <a href="#contacts">Контакти</a>
-  </nav>
+  <div class="header-inner">
+    <a href="./index.html" class="logo">
+      <img src="./img/logo.png">
+    </a>
+    <nav>
+      <a href="#home">Головна</a>
+      <a href="#services">Заходи</a>
+      <a href="#team">Команда</a>
+      <a href="#contacts">Контакти</a>
+    </nav>
+  </div>
 </header>
 
-<div class="spacer" id="home"></div>
-
-<section class="hero" id="about">
-  <h1>МОЛОДІЖНИЙ ЦЕНТР</h1>
-  <h2>«Гори вражень»</h2>
-  <p>Сучасний простір для зустрічей та якісного дозвілля у Славську для молоді віком від 14-35 років.</p>
-</section>
-
-<section class="gallery" id="services">
-  <h2>Галерея подій</h2>
-  <div class="grid">
-    <img class="day-molod" src="./img/day-molod.jpg" alt="день молоді ">
-    <img class="vehornitsi" src="./img/vehornitsi.jpg" alt="Андрієвські вечорниці">
-    <img class="pora" src="./img/pora.jpg" alt="Проф орієнтаційний форум">
-    <img class="liter" src="./img/liter.jpg" alt="Літературна вечірка">
-    <img class="parat" src="./img/pirat.jpg" alt="Піратська вечірка">
-    <!-- <img src="" alt="Вечірка">
-    <img src="" alt="Повітряні кулі">
-    <img src="" alt="DJ">
-    <img src="" alt="Повітряні кулі">
-    <img src="" alt="DJ"> -->
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1>Молодіжний центр «Гори вражень»</h1>
+    <h2>Простір для розвитку молоді у Славську</h2>
+    <p>
+      Сучасне місце для зустрічей, навчання та якісного дозвілля молоді віком від 14 до 35 років.
+    </p>
   </div>
 </section>
 
-<!-- Наша команда -->
-<section class="team">
-  <h2>Наша команда</h2>
+<!-- ===== GALLERY ===== -->
+<section class="gallery">
+  <h2 class="section-title">Наші заходи та події</h2>
+
+  <div class="grid">
+    <img src="./img/day-molod.jpg" alt="День молоді у Славську">
+    <img src="./img/vehornitsi.jpg" alt="Андріївські вечорниці">
+    <img src="./img/pora.jpg" alt="Профорієнтаційний форум">
+    <img src="./img/liter.jpg" alt="Літературна вечірка">
+    <img src="./img/pirat.jpg" alt="Піратська тематична вечірка">
+    <img src="./img/pirat.jpg" alt="Піратська тематична вечірка">
+    <img src="./img/pirat.jpg" alt="Піратська тематична вечірка">
+    <img src="./img/pirat.jpg" alt="Піратська тематична вечірка">
+  </div>
+</section>
+
+<!-- ===== TEAM ===== -->
+<section class="team" id="team">
+  <h2 class="section-title">Наша команда</h2>
+
   <div class="team-members">
     <div class="member">
-      <img src="./img/katia.jpg" alt="Командний учасник 1">
+      <img src="./img/katia.jpg" alt="Катерина — директор">
       <h3>Катерина</h3>
       <p>Директор молодіжного центру</p>
     </div>
+
     <div class="member">
-      <img src="./img/ivanka.jpg" alt="Командний учасник 2">
+      <img src="./img/ivanka.jpg" alt="Іванна — молодіжна працівниця">
       <h3>Іванна</h3>
       <p>Молодіжна працівниця</p>
     </div>
   </div>
 </section>
 
-<section class="testimonials">
-  <h2>Що про нас говорять</h2>
-  <h3>Вони перевищили мої очікування</h3>
-  <p>«Це відгук. Додайте текст про ваші успіхи та послуги. Розкажіть про ваші переваги.»</p>
-  <p><strong>Анна Мирон</strong></p>
+<!-- ===== TESTIMONIALS / EVENTS ===== -->
+<section class="event">
+  <h2 class="section-title">Найближчий захід</h2>
+
+  <div class="event-card"  id="services">
+     <div class="event-badge">Подія</div>
+
+    <h3>🎉 Вечірка з фондом "Рідні"</h3>
+
+    <p class="event-date">
+      📅 20 грудня 2025р <br>
+      ⏰ 13:00
+    </p>
+
+    <p class="event-desc">
+      Дрес-код —  Хороший настрій
+      Ігри, музика, смаколики та тепла атмосфера для молоді.
+    </p>
+  </div>
+   
 </section>
 
+
+<!-- ===== CONTACTS ===== -->
 <footer id="contacts">
-  © 2025 Молдодіжний центер "Гори вражень". 
+  <p>© 2025 Молодіжний центр «Гори вражень», Славсько</p>
+
+  <div class="contact-buttons">
+    <a href="https://www.instagram.com/molod_center_slavsko" target="_blank" class="btn insta-btn">
+      Instagram
+    </a>
+    <a href="tel:+380965651562" class="btn phone-btn">
+      Катерина: +380 96 565 15 62
+    </a>
+  </div>
 </footer>
 
 </body>
 </html>
+
